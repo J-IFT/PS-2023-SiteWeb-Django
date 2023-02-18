@@ -1,6 +1,8 @@
 from django.urls import path
 from .views import chap
+from .views import index
 
 urlpatterns = [
-    path('chap-<str:numero_chap>/', chap, name="histoire-chap1"),
+    path('', index, name="histoire-index"),
+    path('chap1', chap, name="histoire-chap1"),
 ]
