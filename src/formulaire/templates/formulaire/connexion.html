@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projet django inspiré du principe des livres dont vous êtes le héros</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+  </head>
+<body>
+    <h2>Connexion</h2>
+    <br>
+    <form action="" method="post">
+        <label for="pseudo">Pseudo:</label>
+        <input type="text" id="pseudo" name="pseudo" required><br>
+        <br>
+        <label for="mdp">Mot de passe:</label>
+        <input type="password" id="mdp" name="mdp" required><br>
+        <br>
+        <input type="submit" value="Se connecter">
+    </form>
+</body>
+<br><br>
+<footer>
+  <div class="footer">&copy; Juliette INFANTI, Jeremy DUSSOL, Flavien GROS & Brice TRAPPLER </div>
+</footer>
+</html>
