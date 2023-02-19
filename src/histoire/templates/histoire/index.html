@@ -1,10 +1,25 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>index</title>
+	<title>Projet django inspiré du principe des livres dont vous êtes le héros</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 <body>
-  <h1>hello world</h1>
+	<h2>Une histoire étrange...</h2>
+  <p>Vous vous réveillez dans une pièce sombre et inconnue, sans savoir comment vous êtes arrivé là.<br> 
+    En explorant la pièce, vous trouvez une porte verrouillée et une fenêtre grillagée.<br> 
+    Soudain, vous entendez des bruits venant de l'extérieur, comme si quelqu'un ou quelque chose vous observait.<br> 
+    <br> 
+    Vous avez deux choix :</p>
+  <br><br>
+	<button><a href="chap1">Tenter de déverrouiller la porte et sortir de la pièce</a></button>
+	<button><a href="chap2">Essayer de passer à travers la fenêtre grillagée</a></button>
 </body>
+<br><br>
+<footer>
+  <div class="footer">&copy; Juliette INFANTI, Jeremy DUSSOL, Flavien GROS & Brice TRAPPLER </div>
+</footer>
 </html>

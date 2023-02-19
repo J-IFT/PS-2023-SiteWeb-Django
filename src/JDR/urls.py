@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from .views import index
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     path('', index, name="homepage"),
@@ -23,3 +24,5 @@ urlpatterns = [
     path('formulaire/', include("formulaire.urls")),
     path('histoire/', include("histoire.urls")),
 ]
+
+urlpatterns += staticfiles_urlpatterns()

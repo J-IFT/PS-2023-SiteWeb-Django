@@ -1,0 +1,40 @@
+/* Style pour les boutons */
+button {
+    background-color: lightskyblue; /* Couleur de fond */
+    border: none; /* Pas de bordure */
+    color: white; /* Couleur du texte */
+    padding: 15px 32px; /* Espacement du texte */
+    text-align: center; /* Alignement du texte */
+    text-decoration: none; /* Pas de soulignement */
+    display: inline-block; /* Affichage en ligne */
+    font-size: 16px; /* Taille de police */
+    margin: 4px 2px; /* Espacement entre les boutons */
+    cursor: pointer; /* Curseur de la souris */
+  }
+
+a {
+  color: black;
+}
+  
+  /* Style pour les boutons au survol */
+button:hover {
+  background-color: blueviolet; /* Couleur de fond au survol */
+}
+  
+  /* Style pour les boutons au clic */
+button:active {
+  background-color: blueviolet; /* Couleur de fond au clic */
+  box-shadow: 0 5px #666; /* Ombre de la bordure */
+  transform: translateY(4px); /* Décalage vers le bas */
+}
+  
+  /* Style pour la page */
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Police de caractères */
+  margin: 0; /* Pas de marges */
+  padding: 0; /* Pas de padding */
+  text-align: center;
+  font-size: 16px;
+  background-color: pink; /* Couleur de fond */
+}
+  

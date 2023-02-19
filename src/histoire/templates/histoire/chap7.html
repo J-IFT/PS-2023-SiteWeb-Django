@@ -1,10 +1,23 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Chapitre 7</title>
+	<title>Projet django inspiré du principe des livres dont vous êtes le héros</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 <body>
-    <h1>Chapitre 7 : " ... "</h1>
+	<h3>Vous choisissez de fuir discrètement</h3>
+  <p>Vous marchez lentement et silencieusement dans le couloir sombre. Vous arrivez à une porte qui mène à l'extérieur. Vous l'ouvrez doucement et vous vous échappez sans être vu. Vous êtes libre, mais vous éalisez que vous êtes dans un endroit inconnu et éloigné de chez vous. Vous devez maintenant trouver un moyen de rentrer chez vous en sécurité.<br> 
+    <br> 
+    Vous devez alors choisir :</p>
+  <br><br>
+	<button><a href="chap8">Trouver de l'aide dans les environs</a></button>
+	<button><a href="chap9">Chercher un moyen de transport pour rentrer chez vous</a></button>
 </body>
+<br><br>
+<footer>
+    <div class="footer">&copy; Juliette INFANTI, Jeremy DUSSOL, Flavien GROS & Brice TRAPPLER </div>
+  </footer>
 </html>

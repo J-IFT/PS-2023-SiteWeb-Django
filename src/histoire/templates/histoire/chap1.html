@@ -1,10 +1,23 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Chapitre 1 "..."</title>
+	<title>Projet django inspiré du principe des livres dont vous êtes le héros</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 <body>
-  <h1>Chapitre 1 : " ... "</h1>
+	<h3>Vous choisissez de déverrouiller la porte</h3>
+  <p>Vous fouillez la pièce à la recherche d'un objet pouvant vous aider à ouvrir la porte. Vous trouvez une vieille clé rouillée sous le lit. Vous vous approchez de la porte et essayez la clé. Elle ne fonctionne pas.<br> 
+    <br> 
+    Vous devez alors choisir :</p>
+  <br><br>
+	<button><a href="chap3">Continuer de chercher dans la pièce pour trouver une autre clé ou un objet utile</a></button>
+	<button><a href="chap4">Tenter de forcer la porte en donnant des coups dessus</a></button>
 </body>
+<br><br>
+<footer>
+  <div class="footer">&copy; Juliette INFANTI, Jeremy DUSSOL, Flavien GROS & Brice TRAPPLER </div>
+</footer>
 </html>

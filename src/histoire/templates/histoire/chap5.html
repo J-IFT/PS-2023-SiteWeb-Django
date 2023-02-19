@@ -1,10 +1,23 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Chapitre 5</title>
+	<title>Projet django inspiré du principe des livres dont vous êtes le héros</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 <body>
-    <h1>Chapitre 5 : " ... "</h1>
+	<h3>Vous trouvez un objet tranchant</h3>
+  <p>Vous trouvez une vieille scie sous le lit. Vous retournez vers la fenêtre et commencez à couper les barreaux. Après plusieurs minutes d'efforts, vous parvenez à enlever suffisamment de barreaux pour passer à travers. Vous êtes libre, mais vous êtes également blessé.<br> 
+    <br> 
+    Vous devez alors choisir :</p>
+  <br><br>
+	<button><a href="chap16">Trouver un moyen de soigner vos blessures</a></button>
+	<button><a href="chap16">Continuer de fuir malgré la douleur</a></button>
 </body>
+<br><br>
+<footer>
+    <div class="footer">&copy; Juliette INFANTI, Jeremy DUSSOL, Flavien GROS & Brice TRAPPLER </div>
+  </footer>
 </html>

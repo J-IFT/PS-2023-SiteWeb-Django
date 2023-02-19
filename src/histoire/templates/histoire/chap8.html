@@ -1,10 +1,23 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Chapitre 8</title>
+	<title>Projet django inspiré du principe des livres dont vous êtes le héros</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 <body>
-    <h1>Chapitre 8 : " ... "</h1>
+	<h3>Vous décidez de trouver de l'aide</h3>
+  <p>Vous marchez jusqu'à un village voisin. Vous demandez de l'aide à un habitant du village. Il vous explique que vous êtes dans un pays étranger et que vous êtes loin de chez vous. Il vous indique une ville où vous pouvez trouver une ambassade de votre pays.<br> 
+    <br> 
+    Vous devez alors choisir :</p>
+  <br><br>
+	<button><a href="chap10">Prendre le risque de vous rendre à l'ambassade seul</a></button>
+	<button><a href="chap12">Demander de l'aide à une personne du village pour vous accompagner à l'ambassade</a></button>
 </body>
+<br><br>
+<footer>
+    <div class="footer">&copy; Juliette INFANTI, Jeremy DUSSOL, Flavien GROS & Brice TRAPPLER </div>
+  </footer>
 </html>

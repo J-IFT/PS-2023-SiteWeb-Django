@@ -1,10 +1,23 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Chapitre 10</title>
+	<title>Projet django inspiré du principe des livres dont vous êtes le héros</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 <body>
-    <h1>Chapitre 10 : " ... "</h1>
+	<h3>Vous prenez le risque de vous rendre à l'ambassade seul</h3>
+  <p>Vous marchez jusqu'à la ville indiquée par l'habitant du village. Vous trouvez l'ambassade, mais vous ne pouvez pas prouver votre identité.<br> 
+    <br> 
+    Vous devez alors choisir :</p>
+  <br><br>
+	<button><a href="chap15">Rester à l'ambassade jusqu'à ce que votre identité soit vérifiée</a></button>
+	<button><a href="chap15">Chercher d'autres moyens de prouver votre identité, comme des photos ou des documents personnels</a></button>
 </body>
+<br><br>
+<footer>
+    <div class="footer">&copy; Juliette INFANTI, Jeremy DUSSOL, Flavien GROS & Brice TRAPPLER </div>
+  </footer>
 </html>

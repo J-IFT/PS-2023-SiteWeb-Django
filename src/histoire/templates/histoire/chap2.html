@@ -1,10 +1,23 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Chapitre 2</title>
+	<title>Projet django inspiré du principe des livres dont vous êtes le héros</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 <body>
-    <h1>Chapitre 2 : " ... "</h1>
+	<h3>Vous choisissez de passer à travers la fenêtre grillagée</h3>
+  <p>Vous grimpez sur le lit pour atteindre la fenêtre. Vous essayez de forcer les barreaux, mais ils sont trop solides.<br> 
+    <br> 
+    Vous devez alors choisir :</p>
+  <br><br>
+	<button><a href="chap5">Essayer de trouver un objet tranchant pour couper les barreaux</a></button>
+	<button><a href="chap6">Chercher une autre façon de sortir de la pièce</a></button>
 </body>
+<br><br>
+<footer>
+    <div class="footer">&copy; Juliette INFANTI, Jeremy DUSSOL, Flavien GROS & Brice TRAPPLER </div>
+  </footer>
 </html>
