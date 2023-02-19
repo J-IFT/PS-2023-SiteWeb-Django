@@ -1,11 +1,22 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Homepage</title>
+	<title>Projet django inspiré du principe des livres dont vous êtes le héros</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 <body>
-    <h1>Hello World {{ prenom }} </h1>
-
+	<h2>BIENVENUE</h2>
+    <br><br>
+  <p>Projet django inspiré du principe des livres dont vous êtes le héros</p>
+  <br><br>
+	<button><a href="">Se connecter</a></button>
+	<button><a href="formulaire">S'inscrire</a></button>
 </body>
+<br><br>
+<footer>
+  <div class="footer">&copy; Juliette INFANTI, Jeremy DUSSOL, Flavien GROS & Brice TRAPPLER </div>
+</footer>
 </html>
