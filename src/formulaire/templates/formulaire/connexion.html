@@ -11,11 +11,12 @@
     <h2>Connexion</h2>
     <br>
     <form action="" method="post">
+        {% csrf_token %}
         <label for="pseudo">Pseudo:</label>
-        <input type="text" id="pseudo" name="pseudo" required><br>
+        {{ form.username }}<br>
         <br>
         <label for="mdp">Mot de passe:</label>
-        <input type="password" id="mdp" name="mdp" required><br>
+        {{ form.password }}<br>
         <br>
         <input type="submit" value="Se connecter">
     </form>

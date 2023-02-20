@@ -10,9 +10,8 @@
 <body>
     <h2>Inscription</h2>
     <br>
-    <form action="" method="post">
+    <form action="{% url 'login' %}" method="post">
         {% csrf_token %}
-        {{ form.errors }} 
         <label for="pseudo">Pseudo:</label>
         {{ form.username }}  <br>
         <br>
@@ -20,9 +19,7 @@
         {{ form.email }}  <br>
         <br>
         <label for="mdp">Mot de passe:</label>
-        {{ form.password1 }} <br>
-        <label for="mdp">Confirmer mot de passe:</label>
-        {{ form.password2 }} <br>
+        {{ form.password }} <br>
         <br>
         <input type="submit" value="S'inscrire">
     </form>
