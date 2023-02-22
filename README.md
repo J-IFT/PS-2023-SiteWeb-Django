@@ -52,3 +52,8 @@ https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication
 
 + Python, Django
 + Vscode, Pycharm, Sqlite
+
+
+
+## 🌸 Merci !
+© J-IFT
