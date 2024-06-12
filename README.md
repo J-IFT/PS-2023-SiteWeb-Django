@@ -4,7 +4,7 @@
 
 Février 2023
 
-Groupe : Juliette, Flavien, Jeremy & Brice.
+Groupe : Juliette, Flavien, Jeremy.
 
 
 ### 📌 Consignes du projet : 
